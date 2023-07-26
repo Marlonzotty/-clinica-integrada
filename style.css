@@ -94,6 +94,9 @@ nav ul li a {
 
 @media (max-width:970px) {
 
+  nav {
+    justify-content: space-between;
+  }
 
 
   nav .menu-icon {
@@ -522,6 +525,8 @@ nav ul li a {
 }
 
 @media (min-width: 200px) and (max-width: 800px) {
+
+
   .btn {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -651,7 +656,7 @@ nav ul li a {
     padding: 1px;
     border-radius: 20px;
     font-size: 13px;
-    margin-left: 33px;
+    margin-left: 30px;
   }
 
   .complete {
