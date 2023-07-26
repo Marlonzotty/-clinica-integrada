@@ -659,13 +659,19 @@ nav ul li a {
 
   .overlay {
     text-align: center;
+    align-items: center;
+    margin-left: 10px;
   }
 
   .overlay1 {
     text-align: center;
+    align-items: center;
+    margin-left: 10px;
   }
 
   .overlay2 {
     text-align: center;
+    align-items: center;
+    margin-left: 10px;
   }
 }
