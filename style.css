@@ -50,7 +50,7 @@ body {
 nav {
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 50px;
   background-color: #0B2241;
@@ -144,11 +144,13 @@ nav ul li a {
 }
 
 .list {
+  text-align: center;
+  width: 182px;
   list-style: none;
-  background-color: #002ea4;
-  padding: 7px;
+  background-color: #1a47ba;
+  padding: 6px;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 
@@ -256,10 +258,10 @@ nav ul li a {
 
 .overlay {
   position: absolute;
-  top: 153px;
-  left: 59px;
+  top: 29%;
+  left: 16%;
   color: white;
-  font-size: 19px;
+  font-size: 35px;
   padding: 10px;
   text-align: center;
 
@@ -269,8 +271,8 @@ nav ul li a {
 .overlay1 {
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
-  top: 234px;
-  left: 81px;
+  top: 53%;
+  left: 22%;
   color: white;
   font-size: 11px;
   padding: 10px;
@@ -280,14 +282,14 @@ nav ul li a {
 .overlay2 {
   font-family: 'Poppins', sans-serif;
   position: absolute;
-  top: 225px;
-  left: 174px;
+  top: 53%;
+  left: 29%;
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   background-color: #0B2241;
-  border-radius: 20px;
-  padding: 0px;
-  width: 104px;
+  border-radius: 21px;
+  padding: 2px;
+  width: 130px;
 }
 
 .overlay2 p {
@@ -454,7 +456,7 @@ nav ul li a {
 }
 
 .legend {
-  text-align: center;
+
   font-size: 12px;
   margin-left: 25px;
 }
@@ -478,7 +480,7 @@ nav ul li a {
 }
 
 .icon1 img {
-  width: 70px;
+  width: 80px;
 }
 
 /*quem somos*/
@@ -658,23 +660,36 @@ nav ul li a {
   }
 
   .overlay {
+
+    position: absolute;
+    top: 153px;
+    left: 59px;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
     text-align: center;
-    align-items: center;
-    margin-left: 15px;
-    margin-top: 7px;
   }
 
   .overlay1 {
-    text-align: center;
-    align-items: center;
-    margin-left: 15px;
-    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 234px;
+    left: 81px;
+    color: white;
+    font-size: 11px;
+    padding: 10px;
   }
 
   .overlay2 {
-    text-align: center;
-    align-items: center;
-    margin-left: 15px;
-    margin-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 225px;
+    left: 174px;
+    color: white;
+    font-size: 18px;
+    background-color: #0B2241;
+    border-radius: 20px;
+    padding: 0px;
+    width: 104px;
   }
 }
