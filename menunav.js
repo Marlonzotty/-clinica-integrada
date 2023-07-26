@@ -4,10 +4,10 @@ var iconMenu = document.querySelector('nav .menu-icon img');
 
 menuBar.addEventListener('click', function () {
 
-    if (iconMenu.getAttribute("src") == '/img/icons8-cardápio-50.png') {
-        iconMenu.setAttribute("src", "/img/icons8-cardápio-50.png");
+    if (iconMenu.getAttribute("src") == '/img/listras.png') {
+        iconMenu.setAttribute("src", "/img/listras.png");
     } else {
-        iconMenu.setAttribute("src", "/img/icons8-cardápio-50.png");
+        iconMenu.setAttribute("src", "/img/listras.png");
     }
 
     menu.classList.toggle('active');
